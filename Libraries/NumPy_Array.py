@@ -1,4 +1,6 @@
 import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 
 # assign array in numpy 
 
@@ -58,4 +60,7 @@ print(np.sort(myFriends))
 
 
 
-# numpy, Panda, datalist
+# numpy --> Dataset Create
+#  Panda --> Dataset Represent
+#  Matplotlib --> Graphically Data Display
+

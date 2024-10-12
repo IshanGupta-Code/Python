@@ -5,3 +5,5 @@ Python Library
     Create N dimensional array.
 
 How to use NumPy in Pyhton:- goto Terminal -> pip install numpy
+
+Note :- Don't try to create filename -> on predefined keywords
