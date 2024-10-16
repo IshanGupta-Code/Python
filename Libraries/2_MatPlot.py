@@ -10,13 +10,13 @@ plt.title("My Academic Grades")
 plt.grid()
 plt.show()
 
-
 # PIE
 x = np.array([90, 75, 80, 65])
 plt.title("Title")
 name = np.array(["Python", "Java","React", "C"])
 plt.pie(x, labels=name, shadow=True)
 plt.legend()
+
 # plt.xticks(name)
 plt.show()
 
