@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
 
 years = np.array([2005, 2006, 2007, 2011])
