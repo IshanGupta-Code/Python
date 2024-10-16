@@ -1,11 +1,11 @@
 # dictionary can store the data in key value pair
-# name:Piyush 
+# name:ishan 
 # ordered , no duplicate , changable
-myInfo={ "name":"Piyush Pandey",
-                    "email":"e.piyush@gmail.com",
+myInfo={ "name":"ishan Pandey",
+                    "email":"e.ishan@gmail.com",
                      "mobile":"8908768XYZ",
                      "age":18,
-                     "name":"piyush"} #dictionary dont hold duplicate it automaticaaly give last same key value
+                     "name":"ishan"} #dictionary dont hold duplicate it automaticaaly give last same key value
 # dictionary is used for storing particular or individual person details 
 print(type(myInfo))    
  #  to find one information in dictionary
@@ -19,9 +19,9 @@ for value in myInfo.values():
 for key in myInfo.keys():
     print(key)    
     #how we can aasign the values in dictionary
-    # myinfo["name"]="piyush" automaticaaly update the data
-myInfo["name"]="ayush"
-myInfo["email"]="ayush@gmail.com"
+    # myinfo["name"]="ishan" automaticaaly update the data
+myInfo["name"]="prince"
+myInfo["email"]="prince@gmail.com"
 myInfo["mobile"]="908765690"
 myInfo["age"]= 18
 # for value in myInfo.values():
