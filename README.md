@@ -101,4 +101,4 @@ If you have any questions or suggestions, you can reach out:
 
 - **Author**: Ishan Gupta  
 - **GitHub**: [IshanGupta-Code](https://github.com/IshanGupta-Code)  
-- **Email**: *your email here*
+- **Email**: *guptaishan506@gmail.com*
