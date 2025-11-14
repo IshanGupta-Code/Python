@@ -1,0 +1,10 @@
+It is bulit on top of the matplot lib.
+
+1. Distribution Plot
+    sns.distplot replace to displot in v 0.14
+
+    -> sns.displot(columns_name, kde, bins)
+
+    seaborn.distplot(a=None, bins=None, hist=True, kde=True, rug=False, fit=None, hist_kws=None, kde_kws=None, rug_kws=None, fit_kws=None, color=None, vertical=False, norm_hist=False, axlabel=None, label=None, ax=None, x=None)
+
+2. Joint Plot

@@ -1,0 +1,20 @@
+{
+  "Name": {
+    "0": "Ishan",
+    "1": "Prince",
+    "2": "Siddharth",
+    "3": "Nepali"
+  },
+  "Age": {
+    "0": 10,
+    "1": 20,
+    "2": 30,
+    "3": 40
+  },
+  "City": {
+    "0": "Nagpur",
+    "1": "Banaras",
+    "2": "Sahibabad",
+    "3": "Noida"
+  }
+}

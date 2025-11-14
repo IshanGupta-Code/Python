@@ -1,0 +1,24 @@
+Important Notes
+1 - Understand the data
+2 - Identify the problem 
+3 - Plan next steps
+
+
+info() method
+1 - number of rows and columns
+2- data type
+3- empty cells(null)
+4- columns name 
+5- memory usage
+
+
+
+
+Pandas :- Pandas is a pyhton library which helps in understanding, filtering, and changing the big dataset.
+
+# For reading data from file use :
+    df = pd.read_csv(data_file , encoding = "latin1")
+    df = pd.read_json(data_file , encoding = "latin1")
+    df = pd.read_xlxs(data_file , encoding = "latin1")
+
+# Saving a

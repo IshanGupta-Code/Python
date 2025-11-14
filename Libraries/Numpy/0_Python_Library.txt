@@ -1,0 +1,108 @@
+Python Libraries
+
+How to use NumPy in Pyhton:- goto Terminal -> pip install numpy
+
+1. NumPy :- It is used to work on large data set
+        Range is too large.
+        High order function.
+        Create N dimensional array.
+
+
+# NumPy Functions
+
+    1. np.array (Normal array)
+    2. np.flip  (Flip the order of an arary)
+    3. np.sort  (Sort the data)
+    4. np.zeros (To fill the array with zeros as [Deafault values])
+    5. np.ones (To fill the array with ones as [Deafault values])
+    6. np.full (To fill the array with given value as [Deafault values])
+    7. np.arange (Creating the sequence of numbers)
+    8. np.eye (To create Identity matrix)
+
+# Extras
+    1. .shape (get the row and coloumn of an array)  (Row , Coloumn)
+    2. . size (get number of elements) 
+    3. .ndim (get number of Dimension)
+    3. .dtype (get datatype of elements)
+    4. .astype (TypeConversion of the matrix)
+
+# Operations (+ , * , % , / , // , **)
+    1. Direct use Operations on the martrix
+        matrix2 = np.array([10,20,30,40])
+            print(matrix2 + 20)
+            print(matrix2 * 6)
+            print(matrix2 ** 2)
+
+# Aggregate function
+    1. np.sum() :- Sum of all Number
+    2. np.mean() :- Mean of an arary
+    3. np.min() :- minimum value
+    4. np.max() :- Maximum value
+    5. np.std() :- standard Deviation
+    6. np.var() :- Variance
+
+# Indexing and Slicing
+    1.  arr[index Number]  --> 1 Dimensional
+        arr[row , coloumn] --> 2 Dimensional
+
+    2. Fancing Indexing
+        Printing of elements of multiple index
+            arr([[0,1,5]])
+
+    3. Boolean Mastering
+        Printing of elements with give them conditions
+            arr[arr > 35]
+
+    4. Slicing
+        arr[start:stop:step]
+            start --> Starting Index
+            stop --> Stop Index {It exclude the given index}
+            step --> Step by skipping Index
+
+
+# Reshaping and Manupulating
+
+ Reshaping
+    1. Reshaping means changing the dimension of arrray without changing the data.
+    2. It doesn't make the copy of the array. Changes the original one.
+
+ Flattering Functions
+    1. Convert 2D or 3D array in 1D array.
+        .ravel() --> does affect original array
+        .faltten() --> doesn't affect original array
+
+ Manupulating
+    1. np.insert(array, index, value, axis) [To insert elements]
+    2. np.append(array1 , array2) [To append 2 arrays]
+    3. np.concatenate((array1 , array2) , axis) [To concatenate 2 arrays]
+    4. np.delete (array , index , axis) [To Delete the elements of array]
+    5. Stacking
+        np.stack((array1 , array2), axis) [Stacking of 2 array]
+        np.vstack((array1 , array2)) [To Stack 2 array vertically]
+        np.hstack((array1 , array2)) [To Stack 2 array horizontally]
+    6. Spliting
+        np.split(array , slicing Number) [To slice array in equal part in given slicing number]
+        np.vsplit(array , axis) [to delete array vertically]
+        np.hsplit(array , axis) [to delete arrray horizontally]
+
+#Handling Missing values
+    nan (Not a Number)
+
+    1. np.isnan()  To find any missing value in an array 
+    2. np.nan-to-num() to replace any number with the new number (Deafault Value is 0)
+    3. np.isinf()  To find any infinite value in the array
+
+
+
+
+
+
+How to use NumPy in Pyhton:- goto Terminal -> pip install numpy
+
+Note :- Don't try to create filename -> on predefined keywords
+
+
+
+
+
+
