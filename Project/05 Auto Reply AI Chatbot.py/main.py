@@ -1,4 +1,4 @@
-import pyautogui
+import pyautogui # type: ignore
 
 while True:
     a = pyautogui.position()

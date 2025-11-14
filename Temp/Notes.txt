@@ -1,0 +1,9 @@
+Power BI :- Analyis Business Reports
+ (Excel)    generates Business Report
+            Export and Import data in many faces
+            graphical represent the dataset 
+            Data Manipulation
+Business Intelligence
+            Profit, Inventory, ERP 
+            Data Cleaning ---> Duplicate Data, NULL data
+            remove wrong format

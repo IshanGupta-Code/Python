@@ -43,9 +43,15 @@ for name in friendName:
 #  print specific data slicing
 # print data from list in range 
 friendName= ["ivan","anshu","anjali","wani"]
+<<<<<<< HEAD
 for name in friendName[1:3]:
     print(name)
 # not include 3
+=======
+for name in friendName[1:3]:["ivan 0 ","anjali 1","anshu 2","wani 3"]
+# not include 3
+print(name)
+>>>>>>> 2209831fe2796b8ff12712267c6f1a84911095d0
 
 friendName.append("rahul")
 friendName.append("rohit")

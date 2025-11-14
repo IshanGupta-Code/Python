@@ -1,0 +1,9 @@
+Python Library 
+1. NumPy :- It is used to work on large data set
+    Range is too large.
+    High order function.
+    Create N dimensional array.
+
+How to use NumPy in Pyhton:- goto Terminal -> pip install numpy
+
+Note :- Don't try to create filename -> on predefined keywords
